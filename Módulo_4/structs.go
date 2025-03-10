@@ -41,7 +41,7 @@ func main() {
 	//structs + map
 	alunos := map[string][]Pessoa{}
 	alunos["programação"] = pessoas
-	fmt.Println("\n Map chamado cuja chave é programação e seu valor é o slice (a lista) composto por structs Pessoa:")
+	fmt.Println("\n Map chamado cuja chave é "programação" e seu valor é o slice (a lista) composto por structs Pessoa:")
 	fmt.Println(alunos)
 
 	fmt.Println("\n Maps da mesma forma, mas com structs sendo exibidas e valores sendo atribuídos aos campos simultaneamente:")
