@@ -18,6 +18,6 @@
 
 
 <h4>Exercícios do site Exercism:
-Seguir a trilha de exercícios do Exercism da parte de "Learn" (o que mostrei no início do módulo): https://exercism.org/tracks/go/concepts</h4>
+Seguir a trilha de exercícios do Exercism da parte de "Learn": https://exercism.org/tracks/go/concepts</h4>
 
 </body>
