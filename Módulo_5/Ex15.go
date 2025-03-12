@@ -47,6 +47,7 @@ func SortMyString(s string) string {
 	for i := 0; i < len(LetrasLista); i++ {
 		if i%2 == 0 {
 			EvenIndex += LetrasLista[i]
+			//continue --> isso faria o for já retornar aqui nessa linha sem fazer a próxima verificação
 		} else {
 			OddIndex += LetrasLista[i]
 		}
@@ -55,3 +56,5 @@ func SortMyString(s string) string {
 
 	return resultado
 }
+
+//string(word[1]) também é uma forma de pegar letra por letra da string
